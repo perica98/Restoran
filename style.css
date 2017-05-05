@@ -1,0 +1,404 @@
+@font-face { font-family: "DancingScript"; src: url("DancingScript-Regular.otf"); }
+@font-face { font-family: "Raleway"; src: url("Raleway-Regular.ttf"); } 
+
+
+body {
+	font-family: "Raleway", sans-serif;
+	margin: 0;
+}
+
+.logo {
+	font-family: "DancingScript", cursive;
+	font-size: 36px;
+	color: #8eb640;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+nav {
+	overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(38, 38, 38);
+	width: 100%;
+}
+
+nav a {
+	text-decoration: none;
+	margin: 10px;
+	margin-right: 20px;
+	padding-right: 10px;
+	color: #ddd;
+	font-family: "Raleway";
+}
+
+nav a:hover {
+	color: #8eb640;
+}
+
+.pocetak {
+	background-image: url("images/intro-bg.jpg");
+	background-size: contain;
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+}
+
+.naslov {
+	align-items: center;
+}
+
+h1 {
+	color:white;
+	font-family: 'DancingScript', cursive;
+	font-size: 10em;
+}
+
+.logo1 {
+	font-family: 'DancingScript', cursive;
+    color: #fff;
+    font-size: 9em;
+    font-weight: 700;
+    padding-top: 100px;
+    margin-bottom: 0px;
+    text-align:center;
+}
+
+.podnaslov {
+	color: white;
+	font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.discover {
+	text-decoration:none;
+	color: white;
+	font-size: 16px;
+	background-color: #72a411;
+	width: 150px;
+	text-align: center;
+	padding: 15px;
+	margin-top: 25px;
+	margin-left: 100px;
+}
+
+.discover:hover {
+	background-color: #8eb640;
+}
+
+#about {
+	padding: 100px;
+	display: flex;
+	justify-content: space-around;
+	padding: 120px;
+}
+
+.our {
+	margin: 0 0 18px 0;
+    font-weight: 500;
+    font-size: 34px;
+    color: #333;
+}
+
+.awarded {
+	font-size: 20px;
+	color: #333;
+	text-align:left;
+}
+
+.paragraf {
+	line-height: 24px;
+    margin: 17px 0 28px;
+    color: #777;
+    font-size: 15px
+}
+
+.slika1 {
+	padding-right: 60px;
+}
+
+#menu {
+	background-image: url("images/menu-bg.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	background-repeat: no-repeat;
+	justify-content: center;
+	background-color:black;
+	padding: 0px;
+}
+
+.meni {
+	padding-top: 80px;
+    font-weight: 500;
+    font-size: 34px;
+    color: white;
+    text-align:center;
+}
+
+.paragraf1 {
+	color: rgba(255,255,255,0.8);
+	font-size: 22px;
+	padding-bottom: 80px;
+	text-align:center;
+}
+
+#gallery {
+	background-image: url("images/gallery-bg.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	background-repeat: no-repeat;
+	justify-content: center;
+	padding: 0px;
+}
+
+.galerija {
+	padding-top: 80px;
+    font-weight: 500;
+    font-size: 34px;
+    color: white;
+    text-align:center;
+}
+
+.paragraf2 {
+	color: rgba(255,255,255,0.8);
+	font-size: 22px;
+	padding-bottom: 80px;
+	text-align: center;
+}
+
+.jelovnik {
+	padding: 80px;
+}
+
+.slike {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding:80px;
+}
+
+img {
+	margin-bottom: 40px;
+}
+
+#chefs {
+	background:url("images/team-bg.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding: 0px;
+}
+
+.chefs {
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+}
+
+.gallery {
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+}
+
+.menu {
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+}
+
+.meet {
+	padding-top: 120px;
+    font-weight: 500;
+    font-size: 34px;
+    color: white;
+    text-align:center;
+}
+
+.paragraf3 {
+	text-align:center;
+	color: rgba(255,255,255,0.8);
+	font-size: 22px;
+	margin-bottom: 50px;
+}
+
+.kuvari {
+	margin-bottom: 0px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.slike1{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+h3 {
+	color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 5px 0;
+    text-align:center;
+    line-height:1.1;
+}
+
+.paragraf4 {
+	color: rgba(255,255,255,0.7);
+    padding: 0 10px;
+    font-size: 15px;
+    line-height: 1.42857143;
+    padding-bottom: 120px;
+}
+
+.reservation {
+	background-color: #8eb640;
+	padding: 80px;
+	text-align:center;
+}
+
+.rezervacije {
+	color: white;
+	font-size: 34px;
+
+}
+
+#contact {
+	background-color:#F6F6F6;
+	padding: 80px;
+}
+
+.kontakt {
+    font-weight: 500;
+    font-size: 34px;
+    color: #333;
+    text-align:center;
+}
+
+.paragraf5 {
+	color:#777;
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.lorem {
+	display: flex;
+	justify-content: center;
+}
+
+#radnovreme{
+	background-color: rgb(38, 38, 38);
+	padding: 80px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.kontakt1 {
+	color: #8eb640;
+	font-size: 18px;
+}
+
+.paragraf6 {
+	color: rgba(255,255,255,0.8);
+	font-size: 15px;
+	text-align: center;
+}
+
+footer {
+	background-color: #8eb640; 
+	display: flex;
+	text-align:center;
+	justify-content: center;
+	padding-top:30px;
+	padding-bottom: 30px;
+}
+
+.template {
+	text-decoration: none;
+	color: white;
+}
+
+.template:hover{
+	color: rgb(38, 38, 38);
+}
+
+.futer {
+	color: white;
+	margin-top: 0px;
+}
+
+footer img {
+	padding-right: 20px;
+}
+
+hr {
+	height: 2px;
+    width: 70px;
+    position: relative;
+    background: #8eb640;
+    border: 0;
+}
+.our hr {
+	height: 2px;
+    width: 70px;
+    text-align: center;
+    position: relative;
+    background: #8eb640;
+    margin: 0;
+    margin-bottom: 40px;
+    border: 0;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;  
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 16px;
+
+}
+
+input[type=text].name {
+	width: 50%;
+	float: left;
+}
+
+input[type=text].mail {
+	width: 50%;
+	float: left;
+}
+
+.forma{
+	padding: 80px;
+}
+
+input[type=submit] {
+	display: inline-block;
+    color: #fff;
+    background-color: #72a411;
+    border: 0;
+    padding: 14px 20px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-radius: 0;
+    margin-top: 20px;
+  	margin-left: 40%;
+}
